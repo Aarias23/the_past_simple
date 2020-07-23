@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background: #eeeeee;
+    padding: 20px;
+}
+
+.jumbotron-fluid {
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.display-4 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+p.lead {
+    color: white;
+    text-align: justify;
+}
+
+.btn {
+    color: white;
+    border: 1px solid #bbe1fa;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#container {
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .display-4 {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p.lead {
+        font-size: 18px;
+    }
+
+    .card-title {
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
